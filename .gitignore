@@ -1,0 +1,19 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore developer tools
+devel/
+developer_toolbox/
+
+# Ignore database and OS generated files
+*.sql
+*.DS_Store
+*.DS_Store?
+
+#if using sass, uncomment below to ignore the css and sass-cache directories
+#sites/*/themes/*/css
+#*.sass-cache*
